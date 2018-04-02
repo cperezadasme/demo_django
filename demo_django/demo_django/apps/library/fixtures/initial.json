@@ -1,0 +1,102 @@
+[
+  {
+    "model": "library.Author",
+    "pk": 1,
+    "fields": {
+      "name": "Dan",
+      "last_name": "Brown"
+    }
+  },
+  {
+    "model": "library.Author",
+    "pk": 2,
+    "fields": {
+      "name": "Suzanne",
+      "last_name": "Collins"
+    }
+  },
+  {
+    "model": "library.Author",
+    "pk": 3,
+    "fields": {
+      "name": "J. K",
+      "last_name": "Rowling"
+    }
+  },
+  {
+    "model": "library.Author",
+    "pk": 4,
+    "fields": {
+      "name": "Jane",
+      "last_name": "Austen"
+    }
+  },
+  {
+    "model": "library.Author",
+    "pk": 5,
+    "fields": {
+      "name": "Antoine",
+      "last_name": "de Saint-Exupéry"
+    }
+  },
+  {
+    "model": "library.Book",
+    "pk": 2,
+    "fields": {
+      "author" : 1,
+      "name": "Origen",
+      "publish_year": "2017",
+      "category": "Suspenso"
+    }
+  },
+  {
+    "model": "library.Book",
+    "pk": 2,
+    "fields": {
+      "author" : 2,
+      "name": "Los Juegos del Hambre",
+      "publish_year": "2008",
+      "category": "Ciencia Ficción"
+    }
+  },
+  {
+    "model": "library.Book",
+    "pk": 3,
+    "fields": {
+      "author" : 3,
+      "name": "Harry Potter y la Orden del Fenix",
+      "publish_year": "2003",
+      "category": "Ciencia Ficción"
+    }
+  },
+  {
+    "model": "library.Book",
+    "pk": 4,
+    "fields": {
+      "author" : 4,
+      "name": "Orgullo y Prejuicio",
+      "publish_year": "1813",
+      "category": "Novela"
+    }
+  },
+  {
+    "model": "library.Book",
+    "pk": 5,
+    "fields": {
+      "author" : 3,
+      "name": "Harry Potter y la Piedra Filosofal",
+      "publish_year": "1997",
+      "category": "Ciencia Ficcion"
+    }
+  },
+  {
+    "model": "library.Book",
+    "pk": 6,
+    "fields": {
+      "author" : 1,
+      "name": "El Principito",
+      "publish_year": "1943",
+      "category": "Novela"
+    }
+  }
+]
