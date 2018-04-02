@@ -26,7 +26,7 @@ def book(request):
     for book in books:
         html += '<h2>' + book.name + '</h2>'
         html += '<h3>' + book.author.name + ' ' + book.author.last_name + '</h3>'
-        html += '<h3> Año de publicacion: ' + book.publish_year + '</h3>'
-        html += '<h3> Categoria: ' + book.category + '</h3>'
+        html += '<h4> Año de publicacion: ' + book.publish_year + '</h4>'
+        html += '<h4> Categoria: ' + book.category + '</h4>'
 
     return HttpResponse(html)
